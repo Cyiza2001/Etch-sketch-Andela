@@ -1,0 +1,98 @@
+body{
+   margin: 100px;
+   justify-content: center;
+   display: flex;
+}
+.flex-container {
+   height: 600px;
+   width: 600px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background: linear-gradient(rgba(96, 79, 252, 0.082), white);
+ }
+ .board {
+   width: 80%;
+   height: 80%;
+   display: grid;
+   background-color: white;
+ }
+ .board:hover {
+   cursor: pointer;
+ }
+ .content {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   min-width: 300px;
+   min-height: 300px;
+   width: 60vw;
+   height: 60vw;
+   max-width: 600px;
+   max-height: 600px;
+ }
+ .title {
+   display: flex;
+   justify-content: center;
+   color: blue;
+   text-decoration: underline;
+ }
+ .buttons {
+   margin-top: 30px;
+   margin-bottom: 10px;
+ }
+ button {
+  width: 80px;
+  height: 30px;
+   padding: 3px;
+   margin: 5px;
+   text-decoration: none;
+   font-weight: 600;
+   text-align: center;
+   border-radius: 10px;
+   border: none;
+ }
+ button:hover {
+   cursor: pointer;
+ }
+ .blackButton {
+   background-color: black;
+   color: white;
+ }
+ .blackButton:hover {
+   background-color: white;
+   color: black;
+ }
+ .grayButton {
+   background-color: rgba(128, 128, 128, 0.411);
+   color: black;
+ }
+ .grayButton:hover {
+   background-color: rgb(95, 95, 95);
+   color: white;
+ }
+ .randomButton {
+  background-color: rgb(224, 142, 19);
+  color: white;
+ }
+ .randomButton:hover {
+   background-color:#000000;
+ }
+ .erasorButton {
+   background-color: rgb(255, 255, 255);
+   color: rgb(0, 0, 0);
+ }
+ .erasorButton:hover {
+   background-color: rgb(68, 66, 66);
+   color: rgb(255, 255, 255);
+ }
+ input {
+   width: 50px;
+ }
+ 
+ .mode {
+   margin-bottom: 5px;
+ }
+ .error {
+   display: none;
+ }
